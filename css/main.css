@@ -1,0 +1,219 @@
+body{
+
+}
+#section-first{
+		background-image: url(../images/bubbles-bg.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width:auto;
+		margin: 0 auto;
+		position:relative;
+}
+#header > .navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+.custom-margin{
+	padding-top: 50px;
+}
+.navbar {
+    position: relative;
+}
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+}
+.glyphicon{
+	padding-top: 17px;
+}
+.jumbotron {
+	background-color: transparent;
+}
+.jumbotron-section1 {
+    background-color: transparent;
+    padding-top: 180px;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 200px;
+}
+#getstarted {
+    background-color: #717171;
+    border-color: transparent;
+    border-radius: 0px;
+    color: #010101;
+    padding: 10px 80px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+}
+.jumbotron-section-two  h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #010101;
+}
+.jumbotron-section-two  p {
+    margin: 0 0 10px;
+    color: #C7C7C7;
+    font-size: 18px;
+}
+/*.custom-padding{
+	padding-left: 130px;
+}*/
+.media-body h4 {
+    font-size: 21px;
+    font-weight: 600;
+    color: #010101;
+}
+.media-body p {
+    font-size: 15px;
+    font-weight: 100;
+    color: #909090;
+}
+.img-center{
+	display: block;
+	margin: 0 auto;
+}
+.pricing-freetrial-row h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.pricing-freetrial-row p {
+    margin: 0 0 10px;
+    color: #909090;
+    font-size: 14px;
+}
+.same-btn {
+    color: #010101;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 0px;
+    background-color: #FFFFFF;
+    border-color: #000000;
+    margin-top: 20px;
+    width: 60%;
+}
+.jumbotron-section-three{
+    padding-left: 130px;
+    padding-right: 130px;
+}
+.jumbotron-section-three p {
+    font-size: 19px;
+    font-weight: 100;
+    color: #909090;
+}
+.jumbotron-section-three h2 {
+    font-size: 29px;
+    font-weight: 700;
+    color: #010101;
+}
+.jumbotron-section-three p{
+	font-size:18px;
+	font-weight: 100;
+	color: #909090;
+}
+.pricing-freetrial-row p {
+    font-size: 15px;
+    font-weight: 100;
+    color: #909090;
+    padding: 0px 70px;
+}
+.jumbotron-section-four h2 {
+    font-size: 29px;
+    font-weight: 700;
+    color: #010101;
+}
+.jumbotron-section-four p{
+	font-size:18px;
+	font-weight: 100;
+	color: #909090;
+}
+.section-four-row h4 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #010101;
+}
+.section-four-row p {
+    font-size: 13px;
+    font-weight: 100;
+    color: #909090;
+}
+.section-four-row1 p {
+    font-size: 12px;
+    font-weight: 100;
+    color: #010101;
+}
+.section-four-row1 h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #010101;
+}
+.desgn p{
+		color: #C4C4C4;
+		font-size: 14px;
+		font-weight: 100;
+}
+.social-media-icons{
+	display: inline-flex;
+}
+.section-four-row1{
+	margin-top: 70px;
+}
+
+.jumbotron-section-five h2 {
+    font-size: 29px;
+    font-weight: 700;
+    color: #010101;
+}
+.jumbotron-section-five p{
+	font-size:18px;
+	font-weight: 100;
+	color: #909090;
+}
+.section-five-row p{
+	font-size: 12px;
+}
+.section-five-row h3 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+.section-five-row{
+	margin-top: 30px;
+}
+.quoted-row{
+	position: relative;
+}
+.img-right{
+	display: table-cell;
+	vertical-align: bottom;
+}
+
+
+/* columns of same height styles */
+
+.row-full-height {
+  height: 100%;
+}
+.col-full-height {
+  height: 100%;
+  vertical-align: middle;
+}
+.row-same-height {
+  display: table;
+  width: 100%;
+  /* fix overflow */
+  table-layout: fixed;
+}
+.col-sm-height {
+  display: table-cell;
+  float: none !important;
+}
+
+@media (max-width: 767px) {
+  .col-xs-height {
+    display: block;
+    float: none !important;
+  }
+}
